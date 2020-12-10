@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(/img/FondoDeFormulario.jpg);
+}
+
+
+.ventana{
+    background: #282d2d;
+    color: white;
+    width: 30%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    min-height: 30px;
+    position: absolute;
+    left: 33.5%;
+    display: none;
+       }
+
+
+.form-register{
+    width: 400px;
+    background: #070707;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 9px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 6px 13px 37px #282D2D ;
+}
+
+.form-register h4{
+    font-size: 28px ;
+    margin-bottom: 20px ;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.fondodetexto{
+    width: 270px;
+    background: #ACB0B0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+    border-radius: 9px;
+    text-align: center;
+    transition: 0.40s;
+}
+
+.form-register input[type="text"]:focus, .form-register input[type="password"]:focus,
+.form-register input[type="email"]:focus{
+    width: 320px;
+    border-color: rgb(44, 204, 44) ;
+} 
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px ;
+}
+
+.form-register .DiseñoBoton{
+    width: 100%;
+    background: black;
+    border: 2px solid yellow;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    height: 50%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.form-register .DiseñoBoton:hover{
+   border-color:  rgb(44, 204, 44);
+}
+
+.ventana .BotonEntendido{
+    width: 100%;
+    background: yellow;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    height: 50%;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.BotonRegreso{
+    border: solid 2px white;
+    margin-left: 20px;
+    color: white;
+    background: #0000004d;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.BotonRegreso:hover{
+    color: white;
+    text-decoration: none;
+    background: #28292912 ;
+}
+
+#error{
+    color: red;
+    font-size: 13.99px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
